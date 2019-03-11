@@ -25,8 +25,7 @@ public class Celebrities {
 			} catch (Exception e) {
 				population = null;
 			}
-		}
-		if(option.equals("RAND")) {
+		} else 	if(option.equals("RAND")) {
 			int n = new Double(Math.random()*100).intValue();
 			System.out.println("Population size: " +n);
 			int famous = new Double(Math.random()*100).intValue();
@@ -35,7 +34,11 @@ public class Celebrities {
 		} 
 		
 		try {
-			System.out.println("Found famous: " +findFamous(population));
+			if(population != null){
+				System.out.println("Found famous: " +findFamous(population));
+			} else {
+				System.out.println("Population is not initialized");
+			}
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

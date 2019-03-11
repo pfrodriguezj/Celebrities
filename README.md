@@ -21,6 +21,16 @@ true ,false,true ,false,true ,true ,false,true ,true ,true
 The diagonal of the matrix is not really important, algorithm assumes every person knows himself, so positions [x][x] are taken as true 
 (besides psicological and filosophical matters).
 
+BUILD
+
+Download or clone Git repo: https://github.com/pfrodriguezj/Celebrities.git
+Create Project as Java Project in Eclipse from location where downloaded or cloned
+Run Maven -> Update Project
+
+
+
+EXECUTION
+
 The program execution requires some parameters be passed as arguments.
 First parameter can be only "CSV", "DB" or "RAND".
 Second parameter depends on first
@@ -30,6 +40,9 @@ Parameters examples:
 	* "RAND" (data are generated randomly)
 	
 A CSV file called "celebrities.csv" can be found inside the project.
+
+Run As -> Run Configurations
+In arguments tab, write parameters, then Apply and Run
 
 That's all I made in 4 hours. ;)
 	

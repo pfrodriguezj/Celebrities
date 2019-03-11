@@ -1,0 +1,21 @@
+2019-03-10 23:02:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO KNOWS(ID, K1,K2,K3,K4,K5,K6,K7,8[*]K,K9,10) VALUES(1,1,1,1,1,1,1,1,1,1,1) "; expected "identifier"; SQL statement:
+INSERT INTO KNOWS(id, k1,k2,k3,k4,k5,k6,k7,8k,k9,10) values(1,1,1,1,1,1,1,1,1,1,1) [42001-197]
+2019-03-10 23:03:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "KNOWS" already exists; SQL statement:
+CREATE TABLE KNOWS(id int primary key, k1 boolean, k2 boolean, k3 boolean, k4 boolean, k5 boolean, k6 boolean,k7 boolean, k8 boolean, k9 boolean, k10 boolean) [42101-197]
+2019-03-10 23:03:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO KNOWS(ID, K1,K2,K3,K4,K5,K6,K7,8[*]K,K9,10) VALUES(1,1,1,1,1,1,1,1,1,1,1) "; expected "identifier"; SQL statement:
+INSERT INTO KNOWS(id, k1,k2,k3,k4,k5,k6,k7,8k,k9,10) values(1,1,1,1,1,1,1,1,1,1,1) [42001-197]
+2019-03-10 23:06:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "KNOWS" already exists; SQL statement:
+CREATE TABLE KNOWS(id int primary key, k1 boolean, k2 boolean, k3 boolean, k4 boolean, k5 boolean, k6 boolean,k7 boolean, k8 boolean, k9 boolean, k10 boolean) [42101-197]
+2019-03-10 23:06:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Syntax error in SQL statement "INSERT INTO KNOWS (ID, K1,K2,K3,K4,K5,K6,K7,K8,K9,10[*]) VALUES(1,1,1,1,1,1,1,1,1,1,1) "; expected "identifier"; SQL statement:
+INSERT INTO KNOWS (id, k1,k2,k3,k4,k5,k6,k7,k8,k9,10) values(1,1,1,1,1,1,1,1,1,1,1) [42001-197]
+2019-03-10 23:07:04 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "KNOWS" already exists; SQL statement:
+CREATE TABLE KNOWS(id int primary key, k1 boolean, k2 boolean, k3 boolean, k4 boolean, k5 boolean, k6 boolean,k7 boolean, k8 boolean, k9 boolean, k10 boolean) [42101-197]
+2019-03-10 23:10:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "KNOWS" already exists; SQL statement:
+CREATE TABLE KNOWS(id int primary key, k1 boolean, k2 boolean, k3 boolean, k4 boolean, k5 boolean, k6 boolean,k7 boolean, k8 boolean, k9 boolean, k10 boolean) [42101-197]

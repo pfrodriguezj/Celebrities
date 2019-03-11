@@ -49,6 +49,7 @@ public class CSVCelebSource implements ICelebSource{
 		// skip the header of the csv
 		records = br.lines().map(mapToItem).collect(Collectors.toList());
 		br.close();
+		inputStream.close();
 		return records;
 	}
 

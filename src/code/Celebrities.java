@@ -123,8 +123,8 @@ public class Celebrities {
 	private static Boolean[][] listToMatrix(List<List<Boolean>> population){
 		Boolean[][] populationMatrix = new Boolean[population.size()][population.size()];
 		
-		for(int i = 0;i<=population.size();i++) {
-			populationMatrix[i] = population.toArray(new Boolean[0]);
+		for(int i = 0;i<population.size();i++) {
+			populationMatrix[i] = population.get(i).toArray(new Boolean[0]);
 		}
 		return populationMatrix;
 	}

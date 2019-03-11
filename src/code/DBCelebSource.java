@@ -83,12 +83,12 @@ public class DBCelebSource implements ICelebSource{
             insertPreparedStatement.executeUpdate();
             insertPreparedStatement.close();
 
-            insertQuery = "INSERT INTO " + table + "(id, k1,k2,k3,k4,k5,k6,k7,k8,k9,k10) values" + "(4,1,0,0,0,1,0,0,0,0,0)";
+            insertQuery = "INSERT INTO " + table + "(id, k1,k2,k3,k4,k5,k6,k7,k8,k9,k10) values" + "(4,0,0,1,0,1,0,0,0,0,0)";
             insertPreparedStatement = connection.prepareStatement(insertQuery);
             insertPreparedStatement.executeUpdate();
             insertPreparedStatement.close();
 
-            insertQuery = "INSERT INTO " + table + "(id, k1,k2,k3,k4,k5,k6,k7,k8,k9,k10) values" + "(5,0,1,0,1,1,0,1,0,0,0)";
+            insertQuery = "INSERT INTO " + table + "(id, k1,k2,k3,k4,k5,k6,k7,k8,k9,k10) values" + "(5,0,0,0,0,1,0,0,0,0,0)";
             insertPreparedStatement = connection.prepareStatement(insertQuery);
             insertPreparedStatement.executeUpdate();
             insertPreparedStatement.close();
